@@ -1,8 +1,7 @@
-
 # $name$
 
 $address$  
-$email$$if(phone)$ • $phone$$endif$$if(github)$ • [github.com/$github$](https://github.com/$github$)
+$email$$if(phone)$ • $phone$$endif$$if(github)$ • [github.com/$github$](https://github.com/$github$) $endif$
 
 ---
 
@@ -21,3 +20,4 @@ $endfor$
 
 $endfor$
 $endfor$
+
