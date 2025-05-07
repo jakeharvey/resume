@@ -1,0 +1,72 @@
+
+name: Jake Harvey
+email: jake@example.com
+github: jakeharvey
+address: Chicago, IL
+phone: (555) 123-4567
+
+section:
+  - title: Summary
+    entries:
+      - items:
+          - Staff Software Engineer with 20+ years of experience building scalable, high-availability systems.
+          - Deep expertise in backend architecture, API design, and developer tooling.
+
+  - title: Experience
+    entries:
+      - position: Staff Software Engineer
+        company: Travelport
+        location: Chicago, IL
+        dates: 2020–Present
+        items:
+          - Led the re-architecture of a critical flight booking engine using Go and gRPC.
+          - Reduced API latency by 35% through structured logging, trace correlation, and circuit breaking.
+          - Mentored junior engineers and created onboarding guides adopted across the department.
+      - position: Senior Software Engineer
+        company: Stripe
+        location: Remote
+        dates: 2015–2020
+        items:
+          - Developed and maintained microservices powering global payment fraud detection.
+          - Built internal tools for A/B experimentation and metrics visualization.
+          - Integrated third-party APIs for financial partners in 7+ countries.
+      - position: Software Engineer
+        company: Orbitz Worldwide
+        location: Chicago, IL
+        dates: 2008–2015
+        items:
+          - Migrated legacy Java services to Spring Boot and Docker-based deployments.
+          - Created automated test harnesses for fare and availability shopping engines.
+
+  - title: Education
+    entries:
+      - position: B.S. Computer Science
+        company: University of Illinois Urbana-Champaign
+        location: Urbana, IL
+        dates: 1995–1999
+        items:
+          - Graduated with honors. Focus in systems programming and algorithms.
+
+  - title: Projects
+    entries:
+      - position: Open Source Contributor
+        company: Various Projects
+        location: GitHub
+        dates: Ongoing
+        items:
+          - Contributor to `grpc-gateway`, `wiretap`, and multiple OpenAPI tools.
+          - Created `airfare-sim`, a mock GDS for API contract testing.
+      - position: Resume Generator
+        company: Personal Project
+        location: Chicago, IL
+        dates: 2025
+        items:
+          - YAML-driven resume generation pipeline using Pandoc and LaTeX.
+
+  - title: Skills
+    entries:
+      - items:
+          - "Languages: Go, Java, Python, JavaScript"
+          - "Tools: Docker, Kubernetes, GitHub Actions, Terraform"
+          - "Cloud: AWS, GCP, Azure"
+          - "APIs: REST, gRPC, OpenAPI, GraphQL"
